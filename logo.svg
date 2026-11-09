@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 180">
+<rect width="520" height="180" rx="18" fill="#080808"/>
+<path d="M55 28 L185 28 L90 105 L205 105 L192 132 L38 132 L132 55 L45 55 Z" fill="#f5f5f5"/>
+<path d="M115 90 L225 24 L204 70 L155 100 L208 100 L195 132 L85 132 Z" fill="#ed1c2e"/>
+<text x="235" y="108" font-family="Arial,sans-serif" font-size="76" font-weight="900" letter-spacing="-4" fill="#fff">ZAN-<tspan fill="#ed1c2e">G</tspan></text>
+<text x="240" y="139" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="5" fill="#ddd">WEAR THE ATTITUDE</text>
+</svg>
