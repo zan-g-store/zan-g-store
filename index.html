@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZAN-G | Luxury Streetwear</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for Professional Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- ================= WELCOME SCREEN ANIMATION ================= -->
+    <div id="welcome-screen" class="welcome-screen">
+        <div class="welcome-content">
+            <div class="namaste-animation-container">
+                <svg class="namaste-svg" viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Left Hand Vector -->
+                    <g id="left-hand" class="hand left-hand">
+                        <path d="M130,280 C110,260 100,220 110,180 C115,160 125,140 140,120 C145,113 155,110 160,118 C165,125 160,135 155,145 C142,170 140,200 150,230 L180,270 C195,290 180,310 160,300 Z" fill="#d4af37"/>
+                        <!-- Left Fingers -->
+                        <path d="M140,120 L180,75 C186,68 195,73 192,81 L165,135 Z" fill="#d4af37"/>
+                        <path d="M152,118 L200,85 C207,80 215,87 209,95 L175,145 Z" fill="#d4af37"/>
+                        <path d="M165,128 L212,105 C219,102 225,110 218,118 L185,158 Z" fill="#d4af37"/>
+                        <path d="M178,144 L212,130 C219,127 224,136 217,143 L195,172 Z" fill="#d4af37"/>
+                    </g>
+                    
+                    <!-- Right Hand Vector -->
+                    <g id="right-hand" class="hand right-hand">
+                        <path d="M370,280 C390,260 400,220 390,180 C385,160 375,140 360,120 C355,113 345,110 340,118 C335,125 340,135 345,145 C358,170 360,200 350,230 L320,270 C305,290 320,310 340,300 Z" fill="#d4af37"/>
+                        <!-- Right Fingers -->
+                        <path d="M360,120 L320,75 C314,68 305,73 308,81 L335,135 Z" fill="#d4af37"/>
+                        <path d="M348,118 L300,85 C293,80 285,87 291,95 L325,145 Z" fill="#d4af37"/>
+                        <path d="M335,128 L288,105 C281,102 275,110 282,118 L315,158 Z" fill="#d4af37"/>
+                        <path d="M322,144 L288,130 C281,127 276,136 283,143 L305,172 Z" fill="#d4af37"/>
+                    </g>
+                </svg>
+            </div>
+            <h1 class="welcome-brand">ZAN-G</h1>
+            <button id="enter-btn" class="enter-btn">Enter Experience</button>
+        </div>
+    </div>
+
+    <!-- ================= MAIN WEBSITE HEADER ================= -->
+    <header class="header">
+        <div class="top-announcement">
+            <p>🔥 Free Express Shipping Worldwide on Orders Over $150 | Premium Streetwear Drop #04</p>
+        </div>
+        <nav class="navbar">
+            <div class="nav-left">
+                <button class="mobile-menu-toggle" id="menu-toggle"><i class="fa-solid fa-bars"></i></button>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#collections">Collections</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="logo">
+                <a href="#home">ZAN-<span>G</span></a>
+            </div>
+            <div class="nav-right">
+                <button class="icon-btn" id="search-btn" title="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button class="icon-btn" id="wishlist-btn" title="Wishlist"><i class="fa-regular fa-heart"></i><span class="badge" id="wishlist-count">0</span></button>
+                <button class="icon-btn" id="cart-btn" title="Cart"><i class="fa-solid fa-bag-shopping"></i><span class="badge" id="cart-count">0</span></button>
+                <button class="icon-btn" id="account-btn" title="Account"><i class="fa-regular fa-user"></i></button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ================= HERO SECTION ================= -->
+    <section id="home" class="hero">
+        <div class="hero-slider">
+            <div class="hero-slide active" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1920&q=80') center/cover;">
+                <div class="hero-content">
+                    <span class="subtitle">LIMITED EDITION DROP</span>
+                    <h1>REDEFINE LUXURY <br>STREETWEAR</h1>
+                    <p>Immaculate tailoring meets rebellious urban culture. Handcrafted details with signature red and gold accents.</p>
+                    <div class="hero-btns">
+                        <a href="#shop" class="btn-primary">Explore Collection</a>
+                        <a href="#collections" class="btn-secondary">View Lookbook</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= CATEGORIES SECTION ================= -->
+    <section class="categories-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Shop By Category</h2>
+                <p>Curated lines built for modern expression</p>
+            </div>
+            <div class="category-grid">
+                <div class="cat-card" data-category="Mens Wear">
+                    <img src="https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?auto=format&fit=crop&w=600&q=80" alt="Mens Wear">
+                    <div class="cat-overlay"><h3>Men's Wear</h3><span>Explore &rarr;</span></div>
+                </div>
+                <div class="cat-card" data-category="Womens Wear">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80" alt="Womens Wear">
+                    <div class="cat-overlay"><h3>Women's Wear</h3><span>Explore &rarr;</span></div>
+                </div>
+                <div class="cat-card" data-category="Hoodies">
+                    <img src="https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=600&q=80" alt="Hoodies">
+                    <div class="cat-overlay"><h3>Hoodies</h3><span>Explore &rarr;</span></div>
+                </div>
+                <div class="cat-card" data-category="Streetwear">
+                    <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80" alt="Streetwear">
+                    <div class="cat-overlay"><h3>Streetwear</h3><span>Explore &rarr;</span></div>
+                </div>
+                <div class="cat-card" data-category="Jackets">
+                    <img src="https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=600&q=80" alt="Jackets">
+                    <div class="cat-overlay"><h3>Jackets</h3><span>Explore &rarr;</span></div>
+                </div>
+                <div class="cat-card" data-category="Accessories">
+                    <img src="https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=600&q=80" alt="Accessories">
+                    <div class="cat-overlay"><h3>Accessories</h3><span>Explore &rarr;</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= SHOP / PRODUCTS SECTION ================= -->
+    <section id="shop" class="shop-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Featured Products</h2>
+                <p>Sample catalog ready for your custom print-on-demand designs</p>
+            </div>
+            
+            <!-- Filters & Search Toolbar -->
+            <div class="shop-toolbar">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All Items</button>
+                    <button class="filter-btn" data-filter="Hoodies">Hoodies</button>
+                    <button class="filter-btn" data-filter="T-Shirts">T-Shirts</button>
+                    <button class="filter-btn" data-filter="Jackets">Jackets</button>
+                    <button class="filter-btn" data-filter="Tracksuits">Tracksuits</button>
+                    <button class="filter-btn" data-filter="Accessories">Accessories</button>
+                </div>
+                <div class="search-bar-container">
+                    <input type="text" id="product-search" placeholder="Search products...">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <!-- Product Grid -->
+            <div class="product-grid" id="product-grid">
+                <!-- Products dynamically injected via script.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= COLLECTIONS / LOOKBOOK ================= -->
+    <section id="collections" class="collections-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>The Golden Hour Lookbook</h2>
+                <p>A visual exploration of contrast, darkness, and illumination.</p>
+            </div>
+            <div class="lookbook-grid">
+                <div class="lookbook-item">
+                    <img src="https://images.unsplash.com/photo-1508427953056-b00b8d78ebf5?auto=format&fit=crop&w=800&q=80" alt="Look 1">
+                    <div class="lookbook-content">
+                        <h4>DROP 04: OBSIDIAN</h4>
+                        <p>Gold foil embroidery on heavyweight 500GSM French Terry cotton.</p>
+                    </div>
+                </div>
+                <div class="lookbook-item">
+                    <img src="https://images.unsplash.com/photo-1495105787522-5334e3ffa0ef?auto=format&fit=crop&w=800&q=80" alt="Look 2">
+                    <div class="lookbook-content">
+                        <h4>BLOODLINE CRIMSON</h4>
+                        <p>Signature structured outerwear paired with relaxed cargo silhouettes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= ABOUT BRAND ================= -->
+    <section id="about" class="about-section">
+        <div class="container about-container">
+            <div class="about-text">
+                <h2>The Essence of ZAN-G</h2>
+                <p>Born from the intersection of architectural minimalism and underground subculture, ZAN-G delivers uncompromising luxury streetwear. Every piece is engineered with meticulous precision, utilizing elite fabrics and distinctive red and gold detailing.</p>
+                <div class="about-stats">
+                    <div>
+                        <h3>500+</h3>
+                        <span>GSM Heavyweight</span>
+                    </div>
+                    <div>
+                        <h3>100%</h3>
+                        <span>Ethical Production</span>
+                    </div>
+                    <div>
+                        <h3>Global</h3>
+                        <span>Express Fulfillment</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=800&q=80" alt="ZAN-G Studio">
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= PRINT ON DEMAND NOTICE ================= -->
+    <section class="pod-banner">
+        <div class="container pod-content">
+            <i class="fa-solid fa-shirt"></i>
+            <div>
+                <h3>Print-on-Demand Architecture Ready</h3>
+                <p>This codebase is pre-structured to integrate seamlessly with print-on-demand suppliers like Qikink or Printrove for automated fulfillment without holding inventory.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= CONTACT SECTION ================= -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Concierge & Support</h2>
+                <p>We are here to assist with sizing, order queries, and custom drops.</p>
+            </div>
+            <div class="contact-wrapper">
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="5" placeholder="Your Inquiry" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <div class="info-item"><i class="fa-solid fa-location-dot"></i><span>ZAN-G Atelier, Sector 5, Metropolitan Hub</span></div>
+                    <div class="info-item"><i class="fa-solid fa-envelope"></i><span>concierge@zan-g.com</span></div>
+                    <div class="info-item"><i class="fa-solid fa-phone"></i><span>+1 (800) 926-4700</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <h3 class="footer-logo">ZAN-<span>G</span></h3>
+                <p>Luxury streetwear engineered for the modern vanguard. Dark aesthetics with crimson and gold accents.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-discord"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#shop">Shop Catalog</a></li>
+                    <li><a href="#collections">Lookbook</a></li>
+                    <li><a href="#about">Our Story</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Customer Care</h4>
+                <ul>
+                    <li><a href="#" id="footer-track-order">Track Order</a></li>
+                    <li><a href="#">Shipping & Returns</a></li>
+                    <li><a href="#">Size Guide</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Newsletter</h4>
+                <p>Subscribe for private early access to limited capsule drops.</p>
+                <form class="newsletter-form" id="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 ZAN-G Apparel. All rights reserved. Designed for Static Hosting.</p>
+        </div>
+    </footer>
+
+    <!-- ================= MODALS ================= -->
+
+    <!-- Product Quick View Modal -->
+    <div id="product-modal" class="modal">
+        <div class="modal-content product-modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modal-product-details">
+                <!-- Dynamically populated -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Cart Drawer / Modal -->
+    <div id="cart-modal" class="modal">
+        <div class="modal-content cart-drawer">
+            <div class="drawer-header">
+                <h3>Shopping Bag (<span id="cart-bag-count">0</span>)</h3>
+                <span class="close-modal">&times;</span>
+            </div>
+            <div class="drawer-body" id="cart-items-container">
+                <!-- Cart items -->
+            </div>
+            <div class="drawer-footer">
+                <div class="subtotal-row">
+                    <span>Subtotal:</span>
+                    <span id="cart-subtotal">$0.00</span>
+                </div>
+                <p class="tax-note">Shipping & taxes calculated at checkout. <br><em>[Note: Payment gateway requires backend integration]</em></p>
+                <button id="checkout-btn" class="btn-primary full-width">Proceed to Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Wishlist Modal -->
+    <div id="wishlist-modal" class="modal">
+        <div class="modal-content cart-drawer">
+            <div class="drawer-header">
+                <h3>My Wishlist (<span id="wishlist-drawer-count">0</span>)</h3>
+                <span class="close-modal">&times;</span>
+            </div>
+            <div class="drawer-body" id="wishlist-items-container">
+                <!-- Wishlist items -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Account Modal -->
+    <div id="account-modal" class="modal">
+        <div class="modal-content account-modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="account-header">
+                <h2>ZAN-G Account</h2>
+                <p>Manage your orders and profile</p>
+            </div>
+            <div class="account-tabs">
+                <button class="acc-tab-btn active" data-tab="login-tab">Sign In</button>
+                <button class="acc-tab-btn" data-tab="profile-tab">Profile</button>
+                <button class="acc-tab-btn" data-tab="orders-tab">Order History</button>
+            </div>
+            <div class="account-body">
+                <!-- Sign in tab -->
+                <div class="acc-tab-content active" id="login-tab">
+                    <div class="social-login">
+                        <button class="btn-social google-btn" id="google-signin-btn"><i class="fa-brands fa-google"></i> Continue with Google</button>
+                        <button class="btn-social phone-btn" id="phone-signin-btn"><i class="fa-solid fa-phone"></i> Sign in with Mobile</button>
+                    </div>
+                    <div class="divider"><span>OR EMAIL</span></div>
+                    <form id="email-auth-form">
+                        <div class="form-group">
+                            <input type="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" placeholder="Password" required>
+                        </div>
+                        <button type="submit" class="btn-primary full-width">Sign In / Register</button>
+                    </form>
+                    <p class="auth-notice"><small><em>Note: Authentication interface is frontend-only until connected to a real auth backend (Firebase/Supabase).</em></small></p>
+                </div>
+                <!-- Profile tab -->
+                <div class="acc-tab-content" id="profile-tab">
+                    <div class="profile-card">
+                        <div class="avatar"><i class="fa-solid fa-user-gear"></i></div>
+                        <h3>Guest User</h3>
+                        <p>Not signed in. Connect an account to view saved shipping addresses.</p>
+                    </div>
+                </div>
+                <!-- Orders tab -->
+                <div class="acc-tab-content" id="orders-tab">
+                    <div class="empty-orders">
+                        <i class="fa-solid fa-box-open"></i>
+                        <p>No recent orders found.</p>
+                        <button class="btn-secondary" id="track-order-modal-trigger">Track Order by ID</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Order Tracking Modal -->
+    <div id="tracking-modal" class="modal">
+        <div class="modal-content tracking-modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Order Tracking</h2>
+            <p>Enter your order ID to check fulfillment status (Integrated with POD providers).</p>
+            <div class="form-group" style="margin-top: 20px;">
+                <input type="text" id="tracking-input" placeholder="e.g. ZANG-84920">
+            </div>
+            <button id="lookup-tracking-btn" class="btn-primary full-width">Track Shipment</button>
+            <div id="tracking-result" style="margin-top: 20px;"></div>
+        </div>
+    </div>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
